@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "count": 1
+  },
+  "servers": [
+    {
+      "server": {
+        "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+        "name": "github.com/microsoft/playwright-mcp",
+        "version": "0.0.55",
+        "description": "A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright.",
+        "repository": {
+          "url": "https://github.com/microsoft/playwright-mcp",
+          "source": "github"
+        },
+        "packages": [
+          {
+            "registryType": "npm",
+            "registryBaseUrl": "https://registry.npmjs.org",
+            "identifier": "@playwright/mcp",
+            "version": "0.0.55",
+            "transport": {
+              "type": "stdio"
+            }
+          }
+        ]
+      },
+      "_meta": {
+        "io.modelcontextprotocol.registry/trial": {
+          "status": "active",
+          "publishedAt": "2025-11-13T00:00:00.000000Z",
+          "updatedAt": "2025-11-13T00:00:00.000000Z",
+          "isLatest": true
+        }
+      }
+    }
+  ]
+}
